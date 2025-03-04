@@ -1,0 +1,161 @@
+/* General Styles */
+.home-container {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff8e1; /* Soft finance-friendly background */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url('../images/finance-bg.jpg') no-repeat center center/cover;
+  color: rgb(240, 234, 123);
+  padding: 120px 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0.9;
+  color: #fff8e1;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background: #27ae60;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background: #219150;
+  transform: scale(1.05);
+}
+
+/* Features Section */
+.features-section {
+  margin-top: 50px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature-card {
+  background: #eef1ec;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+}
+
+.feature-card h3 {
+  color: #2c3e50;
+}
+
+.feature-card p {
+  color: #555;
+}
+
+/* Chatbot, Gamified Learning, Women Empowerment Sections */
+.chatbot-section, .gamified-learning, .women-empowerment {
+  margin-top: 60px;
+  padding: 40px 20px;
+  background: #eef1ec;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chatbot-section h2, .gamified-learning h2, .women-empowerment h2 {
+  font-size: 2rem;
+  color: black;
+}
+
+.chatbot-section p, .gamified-learning p, .women-empowerment p {
+  font-size: 1.2rem;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  margin-top: 50px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.testimonial-card {
+  background: #eef1ec;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.testimonial-card h4 {
+  margin-top: 10px;
+  color: #4e3d07;
+}
+
+/* Financial News Section */
+.news-section {
+  margin-top: 60px;
+  padding: 30px 20px;
+  background: #eef1ec;
+  border-radius: 10px;
+}
+
+.news-list {
+  list-style: none;
+  padding: 0;
+}
+
+.news-list li {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.news-list a {
+  text-decoration: none;
+  color: #27ae60;
+  font-weight: 600;
+}
+
+.news-list a:hover {
+  text-decoration: underline;
+}
+.rcw-widget-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}

@@ -1,0 +1,125 @@
+/* 🌟 Auth Page Container */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #F3F4F6, #E5E7EB); /* Soft gradient for a modern look */
+}
+
+/* 💳 Auth Card */
+.auth-card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+    width: 380px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-left: 6px solid #16a085; /* Premium green accent */
+}
+
+.auth-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* 🏆 Heading */
+h2 {
+    margin-bottom: 1rem;
+    color: #2C3E50; /* Dark navy for authority and professionalism */
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* 📌 Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ✏️ Input Fields */
+input {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid #BDC3C7;
+    border-radius: 10px;
+    font-size: 16px;
+    background: #fff;
+    transition: 0.3s;
+}
+
+/* 🎯 Input Focus Effect */
+input:focus {
+    border-color: #16a085;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(22, 160, 133, 0.4);
+}
+
+/* 🔥 Primary Button */
+.auth-button {
+    background: linear-gradient(135deg, #16a085, #0E6655); /* Premium financial green */
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+/* 💡 Button Hover Effect */
+.auth-button:hover {
+    background: linear-gradient(135deg, #1ABC9C, #0B5345);
+    transform: scale(1.05);
+}
+
+/* 🟠 Secondary Button (Alternate Call-to-Action) */
+.secondary-button {
+    background: linear-gradient(135deg, #F39C12, #D68910); /* Elegant Gold */
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.secondary-button:hover {
+    background: linear-gradient(135deg, #F4C430, #B9770E);
+}
+
+/* 🔄 Toggle Button */
+.toggle-button {
+    background: none;
+    border: none;
+    color: #16a085;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.toggle-button:hover {
+    text-decoration: underline;
+    color: #1ABC9C;
+}
+
+/* 📝 Paragraph */
+p {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #7F8C8D;
+}
+
+/* 📱 Mobile Responsiveness */
+@media (max-width: 400px) {
+    .auth-card {
+        width: 90%;
+        padding: 1.5rem;
+    }
+}

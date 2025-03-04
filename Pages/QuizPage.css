@@ -1,0 +1,107 @@
+/* General Quiz Styling */
+.quiz-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #fff8e1;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+  
+h2 {
+    color: #d35400;
+    margin-bottom: 20px;
+}
+
+/* Question Box */
+.quiz-question-container {
+    background: #eef1ec;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.quiz-question {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Options Styling */
+.options {
+    list-style-type: none;
+    padding: 0;
+}
+
+.option {
+    display: flex;
+    align-items: center; /* Ensures radio and text align properly */
+    gap: 12px; /* Proper gap between radio and text */
+    padding: 12px;
+    background: #f9f9f9;
+    margin: 8px 0;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+    cursor: pointer;
+    width: 100%;
+}
+
+.option:hover {
+    background: #eaf8df;
+}
+
+/* Ensures clicking anywhere in the option selects the radio button */
+.option input {
+    margin: 0;
+    /* transform: scale(1.2); */
+    cursor: pointer;
+}
+
+.option label {
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    padding: 4px 0;
+}
+
+/* Navigation Buttons */
+.quiz-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    background: #27ae60;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background: #d35400;
+}
+
+/* Results Section */
+.results {
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    margin-top: 20px;
+}

@@ -1,0 +1,120 @@
+/* Navbar.css */
+.navbar {
+  background-color: #121826; /* Dark navy blue - premium & finance-oriented */
+  padding: 2px 50px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
+  font-family: "Poppins", sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Brand Title */
+.nav-title {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #cfa108; /* Gold - Wealth & Premium */
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+
+.nav-title:hover {
+  color: #13985a; /* Slightly brighter gold */
+}
+
+/* Navigation List */
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Links */
+.nav-link {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out, transform 0.2s;
+}
+
+.nav-link:hover {
+  color: #917006; /* Gold hover effect */
+  transform: scale(1.1);
+}
+
+/* Login & Logout Buttons */
+.login-btn,
+.logout-btn {
+  color: white;
+  background: #27ae60; /* Dark Blue */
+  border: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover Effects */
+.login-btn:hover {
+  background: #367502;
+  transform: scale(1.05);
+}
+
+.logout-btn {
+  background: linear-gradient(135deg, #b91c1c, #dc2626); /* Red for logout */
+}
+
+.logout-btn:hover {
+  background: linear-gradient(135deg, #991b1b, #ef4444);
+  transform: scale(1.05);
+}
+
+/* Welcome Text */
+.welcome-text {
+  font-size: 1.1rem;
+  color: #facc15; /* Gold */
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 20px;
+  }
+
+  .nav-list {
+    gap: 15px;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .login-btn,
+  .logout-btn {
+    padding: 8px 18px;
+    font-size: 0.9rem;
+  }
+}
+
+
+.logo {
+  height: 100px; /* Adjust the logo size */
+  width: 150px;
+  display: flex;
+  margin-right: 10px; /* Space between the logo and text */
+}
+

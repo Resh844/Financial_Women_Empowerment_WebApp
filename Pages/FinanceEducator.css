@@ -1,0 +1,107 @@
+/* General Styles */
+.business-guide-container {
+  font-family: Arial, sans-serif;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+  background: #fff8e1;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #d35400;
+}
+
+p {
+  text-align: center;
+  color: #555;
+}
+
+/* Business Sections */
+.business-item {
+  background: #eef1ec;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.business-title {
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  color: #2c3e50;
+  font-size: 18px;
+}
+
+.business-item.active {
+  background: #eef1ec;
+}
+
+.business-content {
+  margin-top: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+/* Buttons */
+button {
+  background:#27ae60;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #eaf8df;
+}
+
+/* Interactive Sections */
+.quiz-section, .chatbot-section, .business-plan-section, .success-map-section, .whatsapp-section, .download-section {
+  background: #eef1ec;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+}
+.chatbot-section h3{
+  color: black;
+}
+
+iframe {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .business-guide-container {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .business-title {
+    font-size: 16px;
+  }
+}
+

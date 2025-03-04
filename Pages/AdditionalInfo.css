@@ -1,0 +1,81 @@
+.additional-info-page {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .additional-info-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px; /* Ensures equal spacing between sections */
+  }
+  
+  .info-section {
+    flex: 1;
+    padding: 25px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Ensures equal spacing between form groups */
+  }
+  
+  .info-section h3 {
+    text-align: center;
+    color: #45a049; /* Green Theme */
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Ensures uniform spacing within each form group */
+  }
+  
+  label {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  input, select, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  textarea {
+    resize: none;
+    min-height: 60px;
+  }
+  
+  .submit-container {
+    text-align: center;
+    margin-top: 25px;
+  }
+  
+  .submit-button {
+    padding: 12px 24px;
+    background: #45a049; /* Green Theme */
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  .submit-button:hover {
+    background: #368036; /* Slightly darker green for hover */
+  }
+  
