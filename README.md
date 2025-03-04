@@ -69,10 +69,3 @@ By default it will be running in localhost:3000
 http://localhost:3000
 
 
-
-
-
-
-
-[![Screenshot 2025-03-04 225849](https://github.com/user-attachments/assets/52cb5c3f-f9d0-426c-b490-29751d8a63fa)
-](https://github.com/Resh844/Financial_Women_Empowerment_WebApp/blob/78c4b62496ecd1002d01211708260277fa4e4abe/Screenshot%202025-03-03%20235147.png)
